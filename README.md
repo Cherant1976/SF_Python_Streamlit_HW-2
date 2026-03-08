@@ -3,7 +3,7 @@
 ## Оглавление  
 [1. Описание учебного проекта](https://github.com/Cherant1976/SF_Python_Streamlit_HW-2#Описание-учебного-проекта)   
 [2. Запуск приложения](https://github.com/Cherant1976/SF_Python_Streamlit_HW-2#Запуск-приложения)  
-[3. Используемые библиотеки python](https://github.com/Cherant1976/SF_Python_Streamlit_HW-2#Используемые-библиотеки-python) 
+[3. Используемые библиотеки python](https://github.com/Cherant1976/SF_Python_Streamlit_HW-2#Используемые-библиотеки-python)  
 [4. Структура страницы приложения](https://github.com/Cherant1976/SF_Python_Streamlit_HW-2#Структура-страницы-приложения)  
 [5. Обработка загруженных *csv* файлов](https://github.com/Cherant1976/SF_Python_Streamlit_HW-2#Обработка-загруженных-csv-файлов)  
 [6. Построение графиков](https://github.com/Cherant1976/SF_Python_Streamlit_HW-2#Построение-графиков)  
