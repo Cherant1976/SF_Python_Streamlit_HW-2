@@ -3,11 +3,11 @@
 ## Оглавление  
 [1. Описание учебного проекта](https://github.com/Cherant1976/SF_Python_Streamlit_HW-2#Описание-учебного-проекта)   
 [2. Запуск приложения](https://github.com/Cherant1976/SF_Python_Streamlit_HW-2#Запуск-приложения)  
-[3. Структура страницы приложения](https://github.com/Cherant1976/SF_Python_Streamlit_HW-2#Структура-страницы-приложения)  
-[4. Обработка загруженных *csv* файлов](https://github.com/Cherant1976/SF_Python_Streamlit_HW-2#Обработка-загруженных-csv-файлов)  
-[5. Построение графиков](https://github.com/Cherant1976/SF_Python_Streamlit_HW-2#Построение-графиков)  
-[6. Сохранение графиков](https://github.com/Cherant1976/SF_Python_Streamlit_HW-2#Сохранение-графиков)  
-[7. Используемые библиотеки python](https://github.com/Cherant1976/SF_Python_Streamlit_HW-2#Используемые-библиотеки-python)  
+[3. Используемые библиотеки python](https://github.com/Cherant1976/SF_Python_Streamlit_HW-2#Используемые-библиотеки-python) 
+[4. Структура страницы приложения](https://github.com/Cherant1976/SF_Python_Streamlit_HW-2#Структура-страницы-приложения)  
+[5. Обработка загруженных *csv* файлов](https://github.com/Cherant1976/SF_Python_Streamlit_HW-2#Обработка-загруженных-csv-файлов)  
+[6. Построение графиков](https://github.com/Cherant1976/SF_Python_Streamlit_HW-2#Построение-графиков)  
+[7. Сохранение графиков](https://github.com/Cherant1976/SF_Python_Streamlit_HW-2#Сохранение-графиков)   
 [8. Возможные улучшения приложения](https://github.com/Cherant1976/SF_Python_Streamlit_HW-2#Возможные-улучшения-приложения)    
 
 ### Описание учебного проекта   
@@ -23,6 +23,22 @@
     * **page_df_statistic.py**
 * Для запуска приложения нужно сохранить указанные файлы в одной папке и в этой папке в терминале запустить команду 
 **streamlit run main.py**
+
+:arrow_up:[к оглавлению](https://github.com/Cherant1976/SF_Python_Streamlit_HW-2#Оглавление)
+
+
+### Используемые библиотеки *python*:  
+```python
+import streamlit as st
+import pandas as pd
+import re
+from io import TextIOWrapper, BytesIO, StringIO
+from pandas.api.types import (
+    is_datetime64_any_dtype, 
+    is_numeric_dtype
+)
+import plotly.graph_objects as go
+```
 
 :arrow_up:[к оглавлению](https://github.com/Cherant1976/SF_Python_Streamlit_HW-2#Оглавление)
 
@@ -62,22 +78,6 @@
 
 ### Сохранение графиков
 Все строящиеся в приложении графики интерактивны, для дальнейшего использования этой интерактивности графики можно сохранить в формате <span style="font-size:18px;">***html***</span>
-
-:arrow_up:[к оглавлению](https://github.com/Cherant1976/SF_Python_Streamlit_HW-2#Оглавление)
-
-
-### Используемые библиотеки *python*:  
-```python
-import streamlit as st
-import pandas as pd
-import re
-from io import TextIOWrapper, BytesIO, StringIO
-from pandas.api.types import (
-    is_datetime64_any_dtype, 
-    is_numeric_dtype
-)
-import plotly.graph_objects as go
-```
 
 :arrow_up:[к оглавлению](https://github.com/Cherant1976/SF_Python_Streamlit_HW-2#Оглавление)
 
