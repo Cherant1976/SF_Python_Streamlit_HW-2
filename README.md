@@ -7,7 +7,7 @@
 [4. Обработка загруженных *csv* файлов](https://github.com/Cherant1976/SF_Python_Streamlit_HW-2#Обработка-загруженных-csv_файлов)  
 [5. Построение графиков](https://github.com/Cherant1976/SF_Python_Streamlit_HW-2#Построение-графиков)  
 [6. Сохранение графиков](https://github.com/Cherant1976/SF_Python_Streamlit_HW-2#Сохранение-графиков)  
-[7. Используемые библиотеки python](https://github.com/Cherant1976/SF_Python_Streamlit_HW-2#Используемые-библиотеки-python) 
+[7. Используемые библиотеки python](https://github.com/Cherant1976/SF_Python_Streamlit_HW-2#Используемые-библиотеки-python)  
 [8. Возможные улучшения приложения](https://github.com/Cherant1976/SF_Python_Streamlit_HW-2#Возможные-улучшения-приложения)    
 
 ### Описание учебного проекта   
