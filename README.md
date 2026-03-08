@@ -7,7 +7,8 @@
 [4. Обработка загруженных *csv* файлов](https://github.com/Cherant1976/SF_Python_Streamlit_HW-2#Обработка-загруженных-csv_файлов)  
 [5. Построение графиков](https://github.com/Cherant1976/SF_Python_Streamlit_HW-2#Построение-графиков)  
 [6. Сохранение графиков](https://github.com/Cherant1976/SF_Python_Streamlit_HW-2#Сохранение-графиков)  
-[7. Используемые библиотеки python](https://github.com/Cherant1976/SF_Python_Streamlit_HW-2#Используемые-библиотеки-python)    
+[7. Используемые библиотеки python](https://github.com/Cherant1976/SF_Python_Streamlit_HW-2#Используемые-библиотеки-python) 
+[8. Возможные улучшения приложения](https://github.com/Cherant1976/SF_Python_Streamlit_HW-2#Возможные-улучшения-приложения)    
 
 ### Описание учебного проекта   
 В проекте реализована обработка загружаемых файлов формата <span style="font-size:18px;">***csv***</span> и построение графиков для выбранных столбцов загруженных файлов.
@@ -77,5 +78,13 @@ from pandas.api.types import (
 )
 import plotly.graph_objects as go
 ```
+
+:arrow_up:[к оглавлению](https://github.com/Cherant1976/SF_Python_Streamlit_HW-2#Оглавление)
+
+
+### Возможные улучшения приложения
+* Переработка кода для большего использования ООП
+* Сделать подсказки для пользователя с предпочтительными видами графиков для выбранных данных 
+* Сделать выбор режимов работы пользователя (упрощённый или режим работы с большим количеством настроек)
 
 :arrow_up:[к оглавлению](https://github.com/Cherant1976/SF_Python_Streamlit_HW-2#Оглавление)
